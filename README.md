@@ -7,6 +7,7 @@ Das Spiel ist für die Studierenden gedacht, die in den Vorlesungen sich etwas m
 - Lineare Elektrische Netze
 - Digitaltechnik
 - Experimentalphysik I
+---
 Auf welche Dozenten sich das Spiel bezieht ist aus Datenschutzgründen nicht genannt.
 
 ## Technische Details
