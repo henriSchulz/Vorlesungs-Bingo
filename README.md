@@ -1,50 +1,30 @@
-# React + TypeScript + Vite
+# Vorlesungsbingo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dieses Projekt ist ein einfaches Bingo-Spiel, das im Rahmen der Vorlesung des ersten Semsters Elektro- und Informationstechnik am KIT entstanden ist. 
+Es stellt ein Webapplikation dar, die es ermöglicht, Bingo in den Vorlesungen bezüglich der Vorlesungsinhalte, Aussagen und Taten der Dozenten zu spielen.
+Das Spiel ist für die Studierenden gedacht, die in den Vorlesungen sich etwas mehr Spaß wünschen. Die Spiel ist in folgenden Modulen möglich:
+- Höhere Mathematik I
+- Lineare Elektrische Netze
+- Digitaltechnik
+- Experimentalphysik I
+Auf welche Dozenten sich das Spiel bezieht ist aus Datenschutzgründen nicht genannt.
 
-Currently, two official plugins are available:
+## Technische Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Das Projekt ist in TypeScript geschrieben und verwendet React als Frontend-Bibliothek. Die Webapplikation nicht in der Lage Daten zu speichern, da es sich um ein Frontend-Projekt handelt.
+Die Daten werden lediglich in `localStorage` gespeichert. Auf höchster Instanz wird vite als Build-Tool verwendet.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Um das Projekt zu starten, müssen Sie die folgenden Schritte ausführen:
 
-- Configure the top-level `parserOptions` property like this:
+1. Klonen Sie das Repository
+2. Installieren Sie die Abhängigkeiten mit `npm install`
+3. Starten Sie das Projekt mit `npm run dev`
+4. Öffnen Sie Ihren Browser und navigieren Sie zu `http://localhost:3000`
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Lizenz
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Das Projekt ist unter der MIT-Lizenz lizenziert.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
