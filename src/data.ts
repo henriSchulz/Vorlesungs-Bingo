@@ -29,6 +29,15 @@ export const bingoData = {
             "Spannungsgesteuerte Spannungsquelle",
             "Prof. Jelonnek wird erwähnt",
             "Jemand ruft mitten in Zoom Meeting an",
+            // "",
+            // "",
+            // "",
+            // "",
+            // "",
+            // "",
+            // "",
+            // "" ,
+            // ""
         ]
     },
     "HM1": {
@@ -39,7 +48,7 @@ export const bingoData = {
             "Hasan stellt eine Frage",
             "Zusammenhang mit LEN",
             "Hasan wird gefragt ob er eine frage hat",
-            "Wer hat das zumindest ein bisschen Verstanden",
+            "Wer hat das zumindest ein bisschen Verstanden?",
             "Jemand fragt, ob die Jalousie runter/hoch oder Tafellicht  an kann",
             "Tsuldigung",
             "Ja, wie heißt du?",
