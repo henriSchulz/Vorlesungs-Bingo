@@ -19,7 +19,7 @@ export const bingoData = {
             "Bei einem Beispiel werden Halbleiter/CPU's erwähnt",
             "Spricht an, dass leute früher gehen",
             "Klopft zwei mal auf die Tafel um etwas zu zeigen",
-            "macht komische Handbewegungen um etwas zu verdeutlichen/darzustellen",
+            "Macht komische Handbewegungen um etwas zu verdeutlichen/darzustellen",
         ]
     },
     "LEN": {
@@ -57,7 +57,14 @@ export const bingoData = {
             "Komisches Beispiel (wie Entführung, Erde fällt auf Ball)",
             "Schubert'sches Experiment",
             "Faszination für irgendwas triviales (z.B. ein Experiment)",
-            "Nachkommastellen als Zahl aussprechen. (z.B.: Neun Komma Einundachtzig)"
+            "Nachkommastellen als Zahl aussprechen. (z.B.: Neun Komma Einundachtzig)",
+            //"Ein ✨ECHTER SCHUBERT✨ wird gemalt"
+            "Lautschrift von Buchstaben (Erklärt wie man Buchstaben ausspricht W=Weh!, eta = Ätha)",
+            "Erkärt irgendwelche trivialen Mathe (die man schon in der Schule hatte) nocheinmal (z.B.:Bogenmaß, Wurzeln, Integrale..)",
+            "Ein \"spektakuläres\" Experiment",
+            "Spricht s als sch aus (z.B. Federkonschtante)",
+            "Prof steigt die Treppe herunter",
+            "Vorlesung fühlt sich an wie ein Diktat"
         ]
     }
 }
