@@ -30,6 +30,16 @@ export default function () {
 
                 </div>
 
+                <div className="mt-10">
+                    <Headline variant="h3">Es fehlt eine Bingo Kategorie?</Headline>
+                    <Text>
+                        Schlage <a className="hover:underline text-blue-500"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSf31dVjQf8U-fqKsQoXY4S1ti2fjxZojwzsGGDY3blXaKgxLw/viewform?usp=sf_link">hier</a> eine
+                        neue Kategorie vor.
+                    </Text>
+
+                </div>
+
             </Card>
         </div>
 

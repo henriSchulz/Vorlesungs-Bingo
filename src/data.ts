@@ -1,6 +1,3 @@
-
-
-
 export const bingoData = {
     "DT": {
         "name": "Digitaltechnik",
@@ -8,14 +5,21 @@ export const bingoData = {
             "Bits werden ✨spendiert ✨",
             "Komisches Video / PowerPoint",
             "Läuft random durch den Hörsaal",
-            "DIN Norm / Standard",
+            "DIN Norm / Standard (z.B. IEEE)",
             "Nicht Vorlesungs relevante Side Story",
             "Lacht als einziger im ganzen Hörsaal",
             "Englisch (wie RIPPLE CARRY ADDIERER)",
             "starrt jemanden  längere Zeit  an",
             "Unterstrichen und im Kasten und in Rot/gelb",
-            "Systembegriff (stark betonte Aussprache)",
-            "Wird beim reden immer leiser und dann plötzlich wieder laut"
+            "stark betonte Aussprache eines Wortes",
+            "Wird beim reden immer leiser und dann plötzlich wieder laut",
+            "Rant über alte Intel Pentium Architektur",
+            "Letztes VFB spiel erwähnen",
+            "Das ✨Buch✨ wird erwähnt",
+            "Bei einem Beispiel werden Halbleiter/CPU's erwähnt",
+            "Spricht an, dass leute früher gehen",
+            "Klopft zwei mal auf die Tafel um etwas zu zeigen",
+            "macht komische Handbewegungen um etwas zu verdeutlichen/darzustellen",
         ]
     },
     "LEN": {
