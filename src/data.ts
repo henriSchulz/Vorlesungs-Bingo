@@ -24,7 +24,7 @@ export const bingoData = {
             "spamt mit grünem Laserpointer random auf die Leinwand",
             "fragt alina ob irgendwas schon gemacht wurde",
             "✨Claude Shannon✨",
-            "glauben sie mir das?"
+            "Glauben sie mir das?"
 
         ]
     },
@@ -35,6 +35,7 @@ export const bingoData = {
             "Spannungsgesteuerte Spannungsquelle",
             "Prof. Jelonnek wird erwähnt",
             "Jemand ruft mitten in Zoom Meeting an",
+            "Formel/Konzept ist \"vom Himmel gefallen\" (Keine Herleitung warum das so ist)"
             // "",
             // "",
             // "",
@@ -60,7 +61,9 @@ export const bingoData = {
             "Ja, wie heißt du?",
             "4x äh nach nacheinander",
             "Kann man die Farbe lesen (Bezogen aus die Kreidenfarbe)",
-            "Wilde Grammatik an der Tafel (In einem Satz/Definition)"
+            "Wilde Grammatik an der Tafel (In einem Satz/Definition)",
+            "Min. 2 Menti Fragen werden gestellt",
+            "Zeigerstab wird ausgepackt"
         ]
 
     },

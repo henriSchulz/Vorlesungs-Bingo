@@ -44,8 +44,7 @@ export default function () {
                         </Headline>
                         <Text>
                             Schau dir <a className="hover:underline text-blue-500"
-                                         href="https://papers.craft.me/kaBsPfX3Iy
-                                    vbGR">hier</a> die
+                                         href="https://papers.craft.me/kaBsPfX3IyvbGR">hier</a> die
                             Liste aller Kategorien an, die es im Bingo gibt.
                         </Text>
                     </div>
@@ -62,6 +61,32 @@ export default function () {
                             Wenn du mithelfen möchtest, kannst du gerne einen Pull Request erstellen.
                         </Text>
                     </div>
+
+                    <div className="mt-5">
+                        <Headline variant="h3">
+                            Wie kann ich die App verbessern?
+                        </Headline>
+
+                        <Text>
+                            Wenn du Verbesserungsvorschläge hast, kannst du gerne ein Issue auf GitHub erstellen.
+                        </Text>
+                    </div>
+
+                    <div className="mt-5">
+                        <Headline variant="h3">
+                            Ich finde eine Kategorie nicht lustig oder unpassend. Was kann ich tun?
+                        </Headline>
+
+                        <Text>
+            Priziell sind die Kategorien humoristisch gemeint und sollen die Vorlesung auflockern. Wenn du eine Kategorie nicht lustig findest, kannst du sie einfach ignorieren. Wenn du eine Kategorie unpassend findest, kannst du gerne
+                            diese gerne unter <a className="hover:underline text-blue-500" href="https://forms.gle/3eM6UGvXHqsECGRu9">
+                                diesem Link
+                        </a> melden.
+                        </Text>
+
+
+                    </div>
+
                 </div>
 
             </Card>

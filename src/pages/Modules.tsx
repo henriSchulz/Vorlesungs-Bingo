@@ -34,6 +34,15 @@ export default function () {
 
                 </div>
 
+
+                <div className="mt-5">
+                    <Text className="text-sm">
+                        <span className="font-bold">Hinweis</span>: Das Bingo soll in keinster Weise die Vorlesung
+                        die Dozenten oder die Inhalte der Vorlesung abwerten. Die Kategorien sind rein
+                        humoristisch gemeint und sollen die Vorlesung auflockern. Alle Mitwirkenden besuchen
+                        sehr gerne die Vorlesungen und schätzen die Dozenten und deren Arbeit.
+                    </Text>
+                </div>
             </Card>
         </div>
 
