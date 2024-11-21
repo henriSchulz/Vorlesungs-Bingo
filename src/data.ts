@@ -20,6 +20,12 @@ export const bingoData = {
             "Spricht an, dass leute früher gehen",
             "Klopft zwei mal auf die Tafel um etwas zu zeigen",
             "Macht komische Handbewegungen um etwas zu verdeutlichen/darzustellen",
+            "Geht min. 6 mal hin und her durch den ganzen Hörsaal  (Vorne)",
+            "spamt mit grünem Laserpointer random auf die Leinwand",
+            "fragt alina ob irgendwas schon gemacht wurde",
+            "✨Claude Shannon✨",
+            "glauben sie mir das?"
+
         ]
     },
     "LEN": {
